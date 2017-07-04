@@ -9,38 +9,49 @@ angular.module('starter.services', [])
             country: 'Australia,Sydney',
             lastText: "It's clear all day !",
             flag: 'img/Australia-icon.png',
-            weather: 'img/sunny-outline.png'
+            weather: 'img/weathericon/sunny-outline.png'
   }, {
             id: 1,
             country: 'Brazil,Brasilia',
             lastText: "It's heavy rain in the morning",
             flag: 'img/Brazil-icon.png',
-            weather: 'img/rainy-outline.png'
+            weather: 'img/weathericon/rainy-outline.png'
   }, {
             id: 2,
             country: 'China,Beijing',
-            lastText: 'I should buy a boat',
-            flag: 'img/China-icon.png'
+            lastText: "It's terrible thunderstorm",
+            flag: 'img/China-icon.png',
+            weather: 'img/weathericon/thunderstorm-outline.png'
   }, {
             id: 3,
-            country: 'England,London',
-            lastText: 'Look at my mukluks!',
-            flag: 'img/England-icon.png'
+            country: 'United-Kingdom,London',
+            lastText: "It's rain all days",
+            flag: 'img/United-Kingdom-icon.png',
+            weather: 'img/weathericon/rainy-outline.png'
   }, {
             id: 4,
             country: 'Germany,Berlin',
-            lastText: 'This is wicked good ice cream.',
-            flag: 'img/Germany-icon.png'
+            lastText: "It's cloudy at night",
+            flag: 'img/Germany-icon.png',
+            weather: 'img/weathericon/cloudy-night-outline.png'
   }, {
             id: 5,
             country: 'Japan,Tokyo',
-            lastText: 'Look at my mukluks!',
-            flag: 'img/Japan-icon.png'
+            lastText: "It's clear all day !",
+            flag: 'img/Japan-icon.png',
+            weather: 'img/weathericon/sunny-outline.png'
   }, {
             id: 6,
             country: 'UnitedStates,Washington D.C',
-            lastText: 'Look at my mukluks!',
-            flag: 'img/United-States-of-Americ-icon.png'
+            lastText: "It's partly sunny all day !",
+            flag: 'img/United-States-of-America-icon.png',
+            weather: 'img/weathericon/partlysunny-outline.png'
+    }, {
+            id: 7,
+            country: 'Russia,moscow',
+            lastText: "It's beautiful moon !",
+            flag: 'img/Russian-federation-icon.png',
+            weather: 'img/weathericon/moon-outline.png'
   }];
 
         return {
