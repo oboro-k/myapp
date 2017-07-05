@@ -52,6 +52,12 @@ angular.module('starter.services', [])
             lastText: "It's beautiful moon !",
             flag: 'img/Russian-federation-icon.png',
             weather: 'img/weathericon/moon-outline.png'
+        }, {
+            id: 8,
+            country: 'France,Paris',
+            lastText: "It's partly sunny all day !",
+            flag: 'img/France-icon.png',
+            weather: 'img/weathericon/partlysunny-outline.png'
   }];
 
         return {
