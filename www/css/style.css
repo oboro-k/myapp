@@ -1,9 +1,18 @@
 /* Empty. Add your own CSS if you like */
 
 .about {
-    color: red
+    color: red;
 }
 
 p {
-    font-size: 18px
+    font-size: 18px;
+}
+
+.ion-button-outline {
+    background-color: darkgray;
+}
+
+.ion-button-block {
+    color: aquamarine;
+    backgound-color: purple;
 }
